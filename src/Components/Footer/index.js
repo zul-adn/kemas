@@ -14,7 +14,7 @@ const Index = () => {
     const getBanner = () => {
         // const proxyurl = "https://cors-anywhere.herokuapp.com/";
         // const url = https://dinartech.com/kemas/kemasBanner.json
-        axios('http://localhost:8000/socialmedia')
+        axios('https://kemas-apiv1.lokalkita.id/socialmedia')
             .then(res => {
                 console.log(res.data)
                 setSosmed(res.data.data)
@@ -32,7 +32,7 @@ const Index = () => {
                 <p style={{ color:'white' }}>Singkawang, Indonesia</p>
                 {
                     sosmed.map((v, i) => 
-                        <a >
+                        <a key={i} href={v.url}>
                             <img 
                                 src={v.icon}
                                 className="sosmedIcon sh-1"

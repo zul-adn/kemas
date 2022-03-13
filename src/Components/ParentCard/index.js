@@ -11,7 +11,7 @@ const Index = () => {
 
 
     const getParentServices = () => {
-        axios('http://localhost:8000/services')
+        axios('https://kemas-apiv1.lokalkita.id/services')
             .then(res => {
                 console.log(res.data)
                 setParents(res.data.data)
@@ -20,7 +20,7 @@ const Index = () => {
     return (
         <div className="cardsContainer">
             {parents.map((v, i) =>
-                <div className="card">
+                <a href={`#${v.parent}`} key={i} className="card">
                     <div className="imgContainer">
                         <img
                             src={v.iconUrl}
@@ -30,7 +30,7 @@ const Index = () => {
                         <div className="title">{v.parent}</div>
                         <div><b>{v.services.length}</b> Jasa tersedia</div>
                     </div>
-                </div>
+                </a>
             )}
         </div>
     )
