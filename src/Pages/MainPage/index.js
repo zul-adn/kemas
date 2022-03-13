@@ -5,7 +5,8 @@ import {
     Slider,
     ParentCard,
     ServiceCard,
-    Footer
+    Footer,
+    Btt
 } from '../../Components';
 
 import ReactGA from 'react-ga';
@@ -25,7 +26,7 @@ const Index = () => {
 
     return (
         <div className="wrapper">
-
+            <Btt />
             {/* Section Header */}
             <section className="sectionHeadContainer phor-15">
                 <div className="pver-5 animate__bounceInDown">

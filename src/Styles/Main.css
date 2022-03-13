@@ -8,9 +8,6 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 
-.wrapper{
-    
-}
 
 .sectionHeadContainer{
     background-color: #1572A1;
@@ -33,6 +30,8 @@ body{
 }
 
 .cardsContainer{
+    display: flex;
+    flex-direction: column;
     width: 100%;
     margin: 0 auto;
     display: grid;
@@ -47,17 +46,16 @@ body{
 }
 
 .card{
-    flex: 1;
+    display: flex;
     flex-direction: row;
     border: 1px solid #ddd;
     padding: 10px;
     border-radius: 8px;
     cursor: pointer;
-    justify-content: center;
-    align-items: center;
     text-decoration: none;
     color: black;
     transition: linear 0.05s;
+    align-items: center;
 }
 
 .card:hover{
@@ -68,6 +66,9 @@ body{
 
 .card .imgContainer{
     width: 30%;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
 }
 
 .card .imgContainer img{
@@ -220,6 +221,25 @@ body{
      width: 25px;
      margin: 2px;
      border-radius: 5px;
+ }
+
+ .btt{
+    display: flex;
+    background-color: #1572A1;
+    width: 50px;
+    aspect-ratio: 1;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .btt img{
+     width: 50%;
  }
 
 

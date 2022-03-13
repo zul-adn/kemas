@@ -27,7 +27,7 @@ const Index = () => {
             <div className="content">
                 <img
                     className="footerImg"
-                    src={'https://pngimg.com/uploads/letter_k/letter_k_PNG17.png'}
+                    src={'https://dinartech.com/kemas/logo.png'}
                 />
                 <p style={{ color:'white' }}>Singkawang, Indonesia</p>
                 {
