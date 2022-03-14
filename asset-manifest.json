@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/kemas/static/css/main.f655f2c3.css",
+    "main.css": "/kemas/static/css/main.7e2922ec.css",
     "main.js": "/kemas/static/js/main.02928e16.js",
     "static/js/787.66b477fd.chunk.js": "/kemas/static/js/787.66b477fd.chunk.js",
     "index.html": "/kemas/index.html",
-    "main.f655f2c3.css.map": "/kemas/static/css/main.f655f2c3.css.map",
+    "main.7e2922ec.css.map": "/kemas/static/css/main.7e2922ec.css.map",
     "main.02928e16.js.map": "/kemas/static/js/main.02928e16.js.map",
     "787.66b477fd.chunk.js.map": "/kemas/static/js/787.66b477fd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f655f2c3.css",
+    "static/css/main.7e2922ec.css",
     "static/js/main.02928e16.js"
   ]
 }
