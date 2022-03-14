@@ -127,6 +127,7 @@ body{
    width: 100%;
    aspect-ratio: 1;
    border-radius: 8px;
+   object-fit: cover;
 }
 
 .cardServiceTitle{
@@ -400,6 +401,10 @@ body{
     .bottomContainer .imgBottom img{
         width: 55px;
         aspect-ratio: 1;
+     }
+
+     .btt{
+         display: none;
      }
  
 

@@ -57,7 +57,7 @@ const Index = () => {
                 </div>
             </section> */}
 
-            <section className="phor-15 ">
+            <section className="phor-15" style={{ paddingBottom:30 }}>
                 <div className="pver-5 animate__bounceInDown">
                     <ServiceCard />
                 </div>
