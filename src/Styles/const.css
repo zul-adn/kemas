@@ -1,34 +1,4 @@
-.phor-5{
-    padding: 0 5%;
-}
 
-.phor-10{
-    padding: 0 10%;
-}
-
-.phor-15{
-    padding: 0 13%;
-}
-
-.phor-20{
-    padding: 0 20%;
-}
-
-.pver-5{
-    padding: 5% 0;
-}
-
-.pver-10{
-    padding: 10% 0;
-}
-
-.pver-15{
-    padding: 15% 0;
-}
-
-.pver-20{
-    padding: 20% 0;
-}
 
 .sh-1{
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
@@ -39,4 +9,111 @@
     color: #fff;
 }
 
+
+@media screen and (min-width: 1024px) {
+    .phor-5{
+        padding: 0 5%;
+    }
+    
+    .phor-10{
+        padding: 0 10%;
+    }
+    
+    .phor-15{
+        padding: 0 13%;
+    }
+    
+    .phor-20{
+        padding: 0 20%;
+    }
+    
+    .pver-5{
+        padding: 5% 0;
+    }
+    
+    .pver-10{
+        padding: 10% 0;
+    }
+    
+    .pver-15{
+        padding: 15% 0;
+    }
+    
+    .pver-20{
+        padding: 20% 0;
+    }
+
+}
+
+/* Phne and Tablet */
+@media screen and (min-width: 481px) and (max-width: 1024px) {
+    .phor-5{
+        padding: 0 5%;
+    }
+    
+    .phor-10{
+        padding: 0 10%;
+    }
+    
+    .phor-15{
+        padding: 0 13%;
+    }
+    
+    .phor-20{
+        padding: 0 20%;
+    }
+    
+    .pver-5{
+        padding: 5% 0;
+    }
+    
+    .pver-10{
+        padding: 10% 0;
+    }
+    
+    .pver-15{
+        padding: 15% 0;
+    }
+    
+    .pver-20{
+        padding: 20% 0;
+    }
+
+}
+
+/* Phone */
+@media (max-width: 480px) {
+    .phor-5{
+        padding: 0 5%;
+    }
+    
+    .phor-10{
+        padding: 0 10%;
+    }
+    
+    .phor-15{
+        padding: 0 3%;
+    }
+    
+    .phor-20{
+        padding: 0 20%;
+    }
+    
+    .pver-5{
+        padding: 5% 0;
+    }
+    
+    .pver-10{
+        padding: 10% 0;
+    }
+    
+    .pver-15{
+        padding: 15% 0;
+    }
+    
+    .pver-20{
+        padding: 20% 0;
+    }
+
+}   
 

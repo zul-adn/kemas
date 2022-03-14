@@ -21,7 +21,7 @@ const Index = () => {
     const getBanner = () => {
         // const proxyurl = "https://cors-anywhere.herokuapp.com/";
         // const url = https://dinartech.com/kemas/kemasBanner.json
-        axios('http://localhost:8000/banners')
+        axios('https://kemas-apiv1.lokalkita.id/banners')
             .then(res => {
                 console.log(res.data)
                 setBanners(res.data.data)

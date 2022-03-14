@@ -28,7 +28,7 @@ const Index = () => {
                     </div>
                     <div className="titleContainer">
                         <div className="title">{v.parent}</div>
-                        <div><b>{v.services.length}</b> Jasa tersedia</div>
+                        <div className="jasaCount"><b>{v.services.length}</b> Jasa tersedia</div>
                     </div>
                 </a>
             )}
