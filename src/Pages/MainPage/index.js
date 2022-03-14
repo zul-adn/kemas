@@ -6,7 +6,8 @@ import {
     ParentCard,
     ServiceCard,
     Footer,
-    Btt
+    Btt,
+    BottomMenu
 } from '../../Components';
 
 import ReactGA from 'react-ga';
@@ -68,6 +69,8 @@ const Index = () => {
                     <Footer />
                 </div>
             </section>
+
+            <BottomMenu />
 
         </div >
     )

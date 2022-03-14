@@ -5,6 +5,7 @@ import ServiceCard from './ServiceCard';
 import Button from './Button';
 import Footer from './Footer';
 import Btt from './BackToTop';
+import BottomMenu from './BotoomMenu'
 
 export {
     Navbar,
@@ -13,5 +14,6 @@ export {
     ServiceCard,
     Button,
     Footer,
-    Btt
+    Btt,
+    BottomMenu
 }

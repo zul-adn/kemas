@@ -9,26 +9,6 @@ body{
 }
 
 
-.sectionHeadContainer{
-    background-color: #1572A1;
-}
-
-.navbar{
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 8px;
-}
-
-.bannerContainer{
-    margin-top: 30px;
-}
-
-.bannerImg{
-    width: 100%;
-    height: auto;
-    border-radius: 8px;
-}
-
 .cardsContainer{
     display: flex;
     flex-direction: column;
@@ -228,6 +208,29 @@ body{
 
 /* Monitor PC */
 @media screen and (min-width: 1024px) {
+
+    .navbar{
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 8px;
+    }
+
+
+.sectionHeadContainer{
+    background-color: #1572A1;
+}
+
+.bannerContainer{
+    margin-top: 30px;
+}
+
+.bannerImg{
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+    
+
     .cardsContainer { 
         grid-template-columns: repeat(3, 1fr); 
     }
@@ -264,6 +267,30 @@ body{
 
 /* Phne and Tablet */
 @media screen and (min-width: 481px) and (max-width: 1024px) {
+
+
+    .navbar{
+        display: none;
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 8px;
+    }
+
+
+    .sectionHeadContainer{
+        background-color: #1572A1;
+    }
+
+    .bannerContainer{
+        
+    }
+
+    .bannerImg{
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+    }
+    
     .cardsContainer { 
         grid-template-columns: repeat(2, 1fr); 
     }
@@ -288,6 +315,30 @@ body{
 
 /* Phone */
 @media (max-width: 480px) {
+
+    .navbar{
+        display: none;
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 8px;
+    }
+
+
+    .sectionHeadContainer{
+        background-color: #1572A1;
+    }
+
+    .bannerContainer{
+    
+    }
+
+    .bannerImg{
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+    }
+    
+
     .cardsContainer { 
         grid-template-columns: repeat(2, 1fr); 
     }
@@ -296,7 +347,9 @@ body{
         grid-template-columns: repeat(2, 1fr); 
     }
 
+
     .footer{
+        display: none;
         grid-template-columns: repeat(2, 1fr); 
     }
 
@@ -304,12 +357,12 @@ body{
         width: 65%;
     }
     .card .titleContainer .title{
-        font-size: 0.9rem;
+        font-size: 0.8rem;
         font-weight: bold;
     }
 
     .card .imgContainer{
-        width: 30%;
+        width: 35%;
         justify-content: center;
         align-items: center;
         margin-right: 20px;
@@ -322,5 +375,26 @@ body{
     .jasaCount{
         display: none;
     }
+
+    .bottomContainer{
+        display: flex;
+        height: 100px;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        overflow-x: scroll;
+        background-color: white;
+    }
+
+    .bottomContainer .imgBottom{
+       width: 100px;
+       padding: 10px;
+    }
+
+    .bottomContainer .imgBottom img{
+        width: 80px;
+        aspect-ratio: 1;
+     }
+ 
 
 }   
