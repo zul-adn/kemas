@@ -378,7 +378,7 @@ body{
 
     .bottomContainer{
         display: flex;
-        height: 100px;
+        height: 75px;
         position: fixed;
         bottom: 0;
         width: 100%;
