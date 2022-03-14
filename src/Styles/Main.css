@@ -384,7 +384,7 @@ body{
         width: 100%;
         overflow-x: scroll;
         background-color: white;
-        border-bottom: 1px solid #ddd;
+        border-top: 1px solid #ddd;
         justify-content: center;
         align-items: center;
         box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
