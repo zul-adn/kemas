@@ -388,15 +388,16 @@ body{
         justify-content: center;
         align-items: center;
         box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+        padding-left: 10px;
     }
 
     .bottomContainer .imgBottom{
-       width: 80px;
+       width: 60px;
        padding: 10px;
     }
 
     .bottomContainer .imgBottom img{
-        width: 50px;
+        width: 55px;
         aspect-ratio: 1;
      }
  
