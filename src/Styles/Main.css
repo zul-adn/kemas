@@ -207,6 +207,10 @@ body{
      width: 50%;
  }
 
+ .bottomContainer{
+    display: none;
+}
+
 /* Monitor PC */
 @media screen and (min-width: 1024px) {
 
@@ -264,6 +268,10 @@ body{
         width: 100%;
     }
 
+    .bottomContainer{
+        display: none;
+    }
+
 }
 
 /* Phne and Tablet */
@@ -310,6 +318,10 @@ body{
     .card .titleContainer .title{
         font-size: 0.5rem;
         font-weight: bold;
+    }
+
+    .bottomContainer{
+        display: none;
     }
 
 }
