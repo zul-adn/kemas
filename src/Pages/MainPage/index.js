@@ -10,19 +10,19 @@ import {
     BottomMenu
 } from '../../Components';
 
-import ReactGA from 'react-ga';
+import ReactGA from "react-ga4";
 
 import 'animate.css';
 import '../../Styles/Main.css';
 import '../../Styles/const.css';
 
 //Initialize React GA
-ReactGA.initialize('3340265435');
+ReactGA.initialize('G-15MFB5K8KP');
 
 const Index = () => {
 
     React.useEffect(() => {
-        ReactGA.pageview('/home')
+        ReactGA.send({ hitType: "Home Page", page: "/home" });
     }, [])
 
     return (
