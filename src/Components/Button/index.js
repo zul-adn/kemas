@@ -1,8 +1,16 @@
-import React from 'react'
+import React from 'react';
+import ReactGA from "react-ga";
+
+ReactGA.initialize('UA-223380139-1');
 
 const Index = (props) => {
     return (
-        <div>
+        <div
+            onClick={() => ReactGA.event({
+                category: 'Klik Service',
+                action: `Klik service ${props.service}`
+            })}
+        >
             <a
                 style={{ textDecoration: 'none' }}
                 href={props.url}

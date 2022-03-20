@@ -1,5 +1,8 @@
 import React from 'react';
 import axios from 'axios';
+import ReactGA from "react-ga";
+
+ReactGA.initialize('UA-223380139-1');
 
 const Index = () => {
 
@@ -20,7 +23,13 @@ const Index = () => {
     return (
         <div className="bottomContainer sh-1">
             {parents.map((v, i) =>
-                <a href={`#${v.parent}`} key={i} className="imgBottom">
+                <a
+                    href={`#${v.parent}`}
+                    key={i} className="imgBottom"
+                    onClick={() => ReactGA.event({
+                        category: 'Klik Kategori Service Bawah',
+                        action: `Klik Kategori Bawah ${v.parent}`
+                    })}>
                     <img
                         src={v.iconUrl}
                     />

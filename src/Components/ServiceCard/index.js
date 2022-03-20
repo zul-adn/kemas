@@ -1,7 +1,12 @@
 import React from 'react';
 import axios from 'axios';
 
+import ReactGA from "react-ga";
+
 import { Button } from '..';
+
+
+ReactGA.initialize('UA-223380139-1');
 
 const Index = () => {
 
@@ -61,6 +66,7 @@ const Index = () => {
                                 <Button
                                     label={'Pesan Jasa'}
                                     url={val.formUrl}
+                                    service={val.name}
                                 />
                             </div>
                         )}
